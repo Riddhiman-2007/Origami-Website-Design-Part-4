@@ -1,0 +1,85 @@
+*{
+    border:solid ; 
+    color: white;
+  }
+  .main{
+    background-color: black;
+    margin: 40px;
+    height: "100%";
+}
+.all{
+    background-color: #000;
+    justify-content: space-between;
+    display: flex;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+.heading{
+    font-size: 50px;
+    background-color: grey;
+    margin: 40px;
+    font-family: Arial;
+    font-style: italic  ;
+    border-color: grey;
+}
+.heading h1{
+    text-align: center;
+    background-color: black;
+    margin: 40px;
+
+}
+.origami{
+    border-radius: 20px;
+    background-color:#000;
+    padding: 30px;
+    margin: 20px;
+    width: 190px;
+    font-family: fantasy;
+}
+.info{
+    background-color: #000;
+  
+}
+.projects h2{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+.projects{
+    background-color: #000;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+.LOGINS{
+    display: flex;
+    justify-content: space-evenly;
+}
+.backimg img{
+    width:1475px;
+    height:400px;
+    position: relative;
+}
+.heading:hover h1{
+    font-size: 20px;
+    opacity: 0;
+    position: absolute;
+    top:50%;left:14%;
+    transform: translate(-50%,-50%);
+    color: black;
+}
+.backimg:hover img{
+    opacity: 0.5;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: yellow;
+}
